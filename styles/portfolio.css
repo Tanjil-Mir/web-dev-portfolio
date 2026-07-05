@@ -29,6 +29,7 @@
   background-repeat: no-repeat;
   background-position: top left, bottom right;
   background-color: #FFF8F3;
+  margin-top: 10px;
 }
  nav {
     display: flex;

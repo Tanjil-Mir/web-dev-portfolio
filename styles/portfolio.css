@@ -20,6 +20,7 @@ html{
   font-size: 35px;
   font-weight: 700;
   color:#181818;
+  text-align: center;
 }
 
 .section-description{
@@ -165,3 +166,26 @@ main{
 }
 
 /* resume style */
+
+.resume-container {
+  display: flex;
+  gap:24px;
+  margin-bottom: 50px;
+}
+
+.resume hr{
+  margin: 30px 0px;
+  border: 0.5px solid #aaaaaa;
+}
+.experience-title{
+  color: #474747;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: -20px;
+}
+.experience-sub-title{
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}

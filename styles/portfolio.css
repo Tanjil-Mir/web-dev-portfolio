@@ -10,6 +10,14 @@ html {
   scroll-behavior: smooth;
 }
 
+::selection {
+  background-color: turquoise;
+  color: black;
+}
+
+/* p::first-letter{
+  font-size: 2rem;
+} */
 /* # this body style for every element in the middle */
 
 /* shared styles */

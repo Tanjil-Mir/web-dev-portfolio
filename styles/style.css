@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  margin: 0;
+}
+
 ::selection {
   background-color: turquoise;
   color: black;
@@ -96,6 +100,10 @@ nav a {
   color: aliceblue;
   font-size: 20px;
   font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* # Banner start */
@@ -222,6 +230,7 @@ footer input[type="email"] {
   margin-bottom: 24px;
   border: none;
   font-size: 1rem;
+  box-sizing: border-box;
 }
 
 footer textarea {
@@ -233,4 +242,6 @@ footer textarea {
   margin-bottom: 24px;
   border: none;
   font-size: 18px;
+  font-family: inherit;
+  box-sizing: border-box;
 }
